@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Shizuru&display=swap");
+
+/*Product component*/
+.product-container h1 {
+  font-family: "Luxurious Roman", cursive;
+}
+.product-container h2 {
+  font-family: "Shizuru", cursive;
+}
+.product-container {
+  display: flex;
+}
+
+img {
+  height: 128px;
+  padding-top: 29px;
+}
+
+.product-info {
+  padding-left: 25px;
+  width: 70vw;
+}
+
+.add-button {
+  height: 40px;
+  width: 100px;
+  padding: 8px, 10px;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+}
